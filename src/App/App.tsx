@@ -7,6 +7,8 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import NotFound from '../pages/NotFound';
+import Category from '../pages/Category';
+import Meal from '../pages/Meal';
 
 const App: React.FC = () => {
   return (
@@ -21,6 +23,14 @@ const App: React.FC = () => {
             <Route
               path='/'
               element={<Home />}
+            />
+            <Route
+              path='/category/:name'
+              element={<Category />}
+            />
+            <Route
+              path='/meal/:id'
+              element={<Meal />}
             />
             <Route
               path='/about'
