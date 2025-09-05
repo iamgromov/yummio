@@ -1,6 +1,6 @@
 # Yummio
 
-This is a React + TS + Vite project using PARAM
+This is a React + TS + Vite project using [themealdb API](https://www.themealdb.com/)
 
 ## Setup
 
@@ -19,9 +19,9 @@ npm install
 
 ## API Configuration
 
-To work with the fortniteapi.io API, you need to obtain an API key:
+To work with the themealdb API, you need to obtain an API key:
 
-1. Register and get your key at [PARAM](PARAM)
+1. API Methods using the developer test key '1' in the URL
 
 2. Create a `.env.local` file in the root of your project and add:
 
