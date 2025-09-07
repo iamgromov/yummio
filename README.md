@@ -1,6 +1,7 @@
 # Yummio
 
 This is a React + TS + Vite project using [themealdb API](https://www.themealdb.com/)
+Recently, there have been problems using the API without a VPN
 
 ## Setup
 
