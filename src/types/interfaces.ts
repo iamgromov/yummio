@@ -5,6 +5,10 @@ export interface ICategory {
   strCategoryDescription: string;
 }
 
+export interface ISearchProps {
+  handleSearch: (str: string) => void;
+}
+
 export interface IMeal {
   [key: string]: string | null;
 

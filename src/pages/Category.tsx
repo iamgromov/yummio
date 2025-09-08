@@ -16,8 +16,6 @@ const Category: React.FC = () => {
     }
   }, [name]);
 
-  console.log(meals);
-
   return (
     <>
       <button

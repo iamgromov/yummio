@@ -15,8 +15,6 @@ const Recipe: React.FC = () => {
     }
   }, [id]);
 
-  console.log(recipe);
-
   return (
     <>
       {!recipe.idMeal ? (
