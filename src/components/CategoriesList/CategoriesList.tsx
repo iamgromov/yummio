@@ -5,16 +5,18 @@ const CategoriesList: React.FC<ICategoriesListProps> = ({
   categories = [],
 }) => {
   return (
-    <div className='list'>
-      {categories.map((category) => {
-        return (
-          <CategoryItem
-            key={category.idCategory}
-            {...category}
-          />
-        );
-      })}
-    </div>
+    <>
+      <div className='list'>
+        {categories.map((category) => {
+          return (
+            <CategoryItem
+              key={category.idCategory}
+              {...category}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 };
 

@@ -139,6 +139,16 @@ label:not(:last-child) {
   animation: fade-in 250ms ease-in-out;
 }
 
+img,
+iframe {
+  max-width: 100%;
+}
+
+iframe {
+  width: 600px;
+  height: 350px;
+}
+
 @keyframes show {
   from {
     top: 70%;

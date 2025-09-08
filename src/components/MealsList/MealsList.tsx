@@ -3,16 +3,18 @@ import MealsItem from '../MealsItem/MealsItem';
 
 const MealsList: React.FC<IMealsListProps> = ({ meals = [] }) => {
   return (
-    <div className='list'>
-      {meals.map((meal) => {
-        return (
-          <MealsItem
-            key={meal.idMeal}
-            {...meal}
-          />
-        );
-      })}
-    </div>
+    <>
+      <div className='list'>
+        {meals.map((meal) => {
+          return (
+            <MealsItem
+              key={meal.idMeal}
+              {...meal}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 };
 

@@ -6,6 +6,8 @@ export interface ICategory {
 }
 
 export interface IMeal {
+  [key: string]: string | null;
+
   idMeal: string;
   strMeal: string;
   strMealAlternate: string | null;

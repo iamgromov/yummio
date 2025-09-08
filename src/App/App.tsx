@@ -8,7 +8,7 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import NotFound from '../pages/NotFound';
 import Category from '../pages/Category';
-import Meal from '../pages/Meal';
+import Recipe from '../pages/Recipe';
 
 const App: React.FC = () => {
   return (
@@ -30,7 +30,7 @@ const App: React.FC = () => {
             />
             <Route
               path='/meal/:id'
-              element={<Meal />}
+              element={<Recipe />}
             />
             <Route
               path='/about'
